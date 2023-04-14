@@ -41,7 +41,10 @@ public class PatternMaker {
     }
     public void pattern6() {
         for (int v=1;v<6;v++) {
-            System.out.println(" " + v);
+            System.out.println(v);
+            for (int d=0;d<4;d++) {
+                System.out.println(" " + d);
+            }
         }
     }
 }
